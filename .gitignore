@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AIOps
+.duckdb
+.dlt/secrets.toml
+
+# Sandbox / scratch
+scratch/
