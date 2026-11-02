@@ -20,7 +20,7 @@ resolution-markers = [
 [[package]]
 name = "ai-01-de25-rikard-oledal"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "dlt", extra = ["duckdb"] },
     { name = "duckdb" },
