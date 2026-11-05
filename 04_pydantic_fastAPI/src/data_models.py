@@ -7,3 +7,6 @@ class Movie(BaseModel):
     genre: Literal["Action", "Comedy", "Drama", "Horror", "Romance", "Sci-Fi", "Fantasy"] = Field(description="Main genre of the movie.")
     rating: int = Field(description="Rating between 1 and 5. The higher rating the more popular the movie is.", gt=0, lt=6)
     summary: str = Field(description="A brief summary of the movie, max 3 sentences.")
+
+class Prompt(BaseModel):
+    prompt: str
