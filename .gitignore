@@ -228,3 +228,6 @@ scratch/
 
 # DuckDB
 *.duckdb
+
+# Exports
+*/exports/*
