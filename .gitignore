@@ -231,3 +231,6 @@ scratch/
 
 # Exports
 */exports/*
+
+# LanceDB
+*/knowledge_base/*
