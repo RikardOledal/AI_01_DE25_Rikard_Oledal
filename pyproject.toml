@@ -9,6 +9,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "cohere>=7.3.1",
     "dlt[duckdb]>=1.32.0",
     "duckdb>=1.5.6",
     "fastapi>=0.162.0",
